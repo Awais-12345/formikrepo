@@ -6,7 +6,6 @@ const Cricket = () => {
     const { values, setFieldValue } = useFormikContext();
 
     const handleChange = (e) => {
-        
         if (values.cricket) {
             setFieldValue('cricket', false);
             setFieldValue('username', ''); 
@@ -23,7 +22,7 @@ const Cricket = () => {
                     checked={values.cricket}
                     onChange={handleChange}
                 />
-                Cricket
+                Crickets
             </label>
             {values.cricket && <Inputfield />}
         </div>

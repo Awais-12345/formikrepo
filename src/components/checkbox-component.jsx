@@ -9,7 +9,7 @@ const Checkcomponent = () => {
     return (
         <div>
             <Formik initialValues={{
-                cricket:true,
+                cricket:false,
                 username:'',
                 game1: [],
                 game2: [],
@@ -23,7 +23,7 @@ const Checkcomponent = () => {
                 <Cricket />
                 <Football />
                 <Hockey />
-                <button type='submit'>Submit</button>
+                <button type='submit'>xdsdsffdfdfdsd</button>
             </Form>
         </Formik>
         </div >
